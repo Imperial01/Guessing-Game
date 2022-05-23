@@ -1,0 +1,117 @@
+html {
+    background: rgb(34,193,195);
+    background: linear-gradient(324deg, rgba(34,193,195,1) 0%, rgba(4,20,190,1) 100%);
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+ #player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 250px;
+    width: 500px;
+    
+
+}
+
+#main-guess {
+    display: flex;
+    height: 250px;
+    width: 220px;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+
+}
+#submit {
+    background-color:#da629e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #F6FAF3;
+    text-shadow: -1px 2px 1px rgb(15, 15, 15);
+    
+
+}
+#row-container {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.previous-guess {
+    display: flex;
+    list-style: none; 
+}
+
+.guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 120px;
+    margin-right: 25px;
+    border-radius: 25%;
+    border:solid #F6FAF3;
+    background-color: #a2aaff;
+    font-size: 30px;
+}
+
+
+input {
+    text-align: center;
+
+}
+#bottom-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-left: 20px;
+    
+    
+}
+#reset-button{
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+    border-radius: 25%;
+    
+}
+#hint-button{
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    
+}
+
+
+

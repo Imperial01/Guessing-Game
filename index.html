@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <h1 id="title">The Guessing Game</h1>
+    <h3 id="subtitle">Choose a number between 1-100</h3>
+
+    <section id="player-container">
+      <form id= "form">
+        <input style="font-size:50px;" id="main-guess" type="number" min= 1 max= 100><br>
+        <button id="submit" type="submit">GUESS</button> 
+      </form>
+    </section>
+
+    <section id="row-container">
+      <ul class="previous-guess">
+        <li class= "guess" id= "guess1">-</li>
+        <li class= "guess" id= "guess2">-</li>
+        <li class= "guess" id= "guess3">-</li>
+        <li class= "guess" id= "guess4">-</li>
+        <li class= "guess" id= "guess5">-</li>
+      </ul>
+    </section>
+
+    <section id="bottom-buttons">
+      <button onClick="history.go(0);" id="reset-button">Reset</button>
+      <button id="hint-button">Hint</button>
+    </section>
+
+
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>
